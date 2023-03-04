@@ -42,7 +42,6 @@ def main():
         parents = list(map(int, input("Enter parents of nodes (space-separated): ").split()))
     height = compute_height(n, parents)
 
-    # Output the height of the tree
     print("Height of tree:", height)
 
 sys.setrecursionlimit(10**7)
